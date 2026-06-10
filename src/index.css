@@ -188,3 +188,11 @@ a, button, input, textarea, select {
   background-size: 12px 12px !important;
 }
 
+.footer-watermark {
+  color: rgba(0, 0, 0, 0.04);
+  transition: color 0.3s ease;
+}
+.dark-theme .footer-watermark {
+  color: rgba(255, 255, 255, 0.03);
+}
+

@@ -294,7 +294,7 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [utcTime, setUtcTime] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   
   // Custom script run status messaging
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
@@ -1744,35 +1744,10 @@ A dockable script framework designed for high-end results.`);
       </main>
 
       {/* COMPANION FOOTER RIGS */}
-      <footer className="border-t border-zinc-150 px-6 md:px-10 xl:px-14 py-8 mt-12 bg-black text-zinc-450 text-xs">
-        <div className="w-full mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6 font-sans">
-          
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
-              </span>
-              <span className="text-white font-semibold">🟢 COMPANION ENGINE ONLINE</span>
-            </div>
-            <span className="hidden sm:inline text-zinc-800">|</span>
-            <span className="hidden sm:inline text-[9.5px] uppercase tracking-wider text-zinc-400">
-              SAFETY SECURITY DEPLOYMENT LEVEL: ACCREDITED
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2.5 text-zinc-400 text-[11px] font-mono select-none">
-            <Clock size={11} className="text-zinc-600" />
-            <span>Universal Time UTC: {utcTime}</span>
-          </div>
-
-          <div className="flex gap-8 text-[11px] uppercase tracking-widest text-zinc-400 font-medium">
-            <span>Stockholm, SE</span>
-            <span className="text-zinc-800">/</span>
-            <span>By Ahsan Ullah</span>
-          </div>
-
-        </div>
+      <footer className="w-full bg-[#e8e2da] overflow-hidden flex items-center justify-center min-h-[40vh] border-t border-zinc-200/65">
+        <h1 className="footer-watermark font-bold uppercase tracking-tighter w-full text-center whitespace-nowrap leading-none select-none px-4" style={{ fontSize: '13vw' }}>
+          Ahsan Ullah
+        </h1>
       </footer>
 
     </div>
