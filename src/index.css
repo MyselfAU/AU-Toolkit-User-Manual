@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Instrument Sans", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-alabaster: #e8e2da;
+  --color-charcoal: #1A1A1A;
+  --color-accent-green: #10B981;
+}
+
+body {
+  background-color: var(--color-alabaster);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  cursor: none;
+}
+
+a, button, input, textarea, select {
+  cursor: none !important;
+}
+
+/* Custom slide-in-right animation */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom scrollbars for a highly polished UI */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(26, 26, 26, 0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(26, 26, 26, 0.1);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 26, 26, 0.2);
+}
+
+/* Dark Mode Overrides */
+.dark-theme {
+  background-color: #111111 !important;
+  color: #e8e2da !important;
+}
+.dark-theme ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.dark-theme ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.dark-theme [class*="from-[#f5f1ea]"] {
+  background-image: none !important;
+  background-color: #141414 !important;
+}
+.dark-theme [class*="bg-[#e8e2da]"] {
+  background-color: #111111 !important;
+}
+.dark-theme header[class*="bg-[#e8e2da]"] {
+  background-color: rgba(17, 17, 17, 0.9) !important;
+}
+.dark-theme [class*="text-[#1A1A1A]"],
+.dark-theme [class*="text-[#7c7565]"],
+.dark-theme [class*="text-[#645e52]"],
+.dark-theme [class*="text-[#5c564f]"] {
+  color: #e8e2da !important;
+}
+.dark-theme [class*="bg-[#FDFDFD]" i], .dark-theme [class*="bg-[#fdfdfc]" i] {
+  background-color: #1c1c1c !important;
+}
+.dark-theme [class*="bg-[#ede5d8]" i] {
+  background-color: #161616 !important;
+}
+.dark-theme [class*="bg-[#fbfaf3]" i] {
+  background-color: rgba(28, 28, 28, 0.9) !important;
+}
+.dark-theme [class*="bg-white"] {
+  background-color: #161616 !important;
+  color: #e8e2da !important;
+}
+.dark-theme [class*="bg-white/20"] {
+  background-color: rgba(30, 30, 30, 0.5) !important;
+}
+.dark-theme [class*="bg-white/40"] {
+  background-color: rgba(30, 30, 30, 0.4) !important;
+}
+.dark-theme [class*="bg-white/60"] {
+  background-color: rgba(25, 25, 25, 0.8) !important;
+}
+.dark-theme [class*="bg-white/80"] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.dark-theme [class*="bg-[#c8a96e]/4" i] {
+  background-color: rgba(200, 169, 110, 0.08) !important;
+}
+.dark-theme [class*="bg-[#c8a96e]/10" i] {
+  background-color: rgba(200, 169, 110, 0.15) !important;
+}
+.dark-theme [class*="bg-[#ede5d8]/60" i] {
+  background-color: rgba(22, 22, 22, 0.6) !important;
+}
+.dark-theme [class*="bg-[#e8e2da]/25" i] {
+  background-color: rgba(30, 30, 30, 0.25) !important;
+}
+.dark-theme [class*="bg-[#e8e2da]/45" i] {
+  background-color: rgba(30, 30, 30, 0.45) !important;
+}
+.dark-theme [class*="bg-[#e8e2da]/50" i] {
+  background-color: rgba(30, 30, 30, 0.5) !important;
+}
+.dark-theme [class*="bg-[#e8e2da]/70" i] {
+  background-color: rgba(30, 30, 30, 0.7) !important;
+}
+.dark-theme [class*="bg-[#e8e2da]/80" i] {
+  background-color: rgba(30, 30, 30, 0.8) !important;
+}
+.dark-theme [class*="bg-yellow-50/50"] {
+  background-color: rgba(80, 50, 10, 0.2) !important;
+}
+.dark-theme [class*="text-black"] {
+  color: #e8e2da !important;
+}
+.dark-theme [class*="bg-black"] {
+  background-color: #cca66b !important;
+  color: #111111 !important;
+}
+.dark-theme [class*="border-zinc-200"], 
+.dark-theme [class*="border-zinc-150"],
+.dark-theme [class*="border-[#e3d5bc]"],
+.dark-theme [class*="border-[#d1ccc7]"] {
+  border-color: rgba(255, 255, 255, 0.06) !important;
+}
+.dark-theme [class*="bg-zinc-50"] {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  color: #e8e2da !important;
+}
+.dark-theme [class*="bg-zinc-100"] {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+.dark-theme [class*="text-zinc-500"],
+.dark-theme [class*="text-zinc-550"] {
+  color: #a1a1aa !important;
+}
+.dark-theme [class*="text-zinc-600"],
+.dark-theme [class*="text-zinc-650"],
+.dark-theme [class*="text-zinc-700"],
+.dark-theme [class*="text-zinc-800"],
+.dark-theme [class*="text-zinc-850"],
+.dark-theme [class*="text-zinc-900"],
+.dark-theme [class*="text-zinc-950"] {
+  color: #dfdfdf !important;
+}
+.dark-theme [class*="text-charcoal"] {
+  color: #e8e2da !important;
+}
+.dark-theme [class*="hover:text-black"]:hover {
+  color: #cca66b !important;
+}
+.dark-theme [class*="border-black"] {
+  border-color: #cca66b !important;
+}
+.dark-theme [class*="-style:WebkitTextStroke"] {
+  /* Using important inside inline styles can't be easily overwritten by CSS unless strictly targeted, but we can try text-stroke override */
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.2) !important;
+}
+.dark-theme [class*="bg-[radial-gradient(#000_1px,transparent_1px)]"] {
+  background: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px) !important;
+  background-size: 12px 12px !important;
+}
+

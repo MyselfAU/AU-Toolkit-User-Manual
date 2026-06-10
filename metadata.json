@@ -1,0 +1,6 @@
+{
+  "name": "AU Toolkit User Manual & Companion",
+  "description": "An elegant, interactive companion dashboard and user manual for AU Toolkit for Adobe After Effects. Explore tools for effects, gradients, custom expressions with live generators, organizing projects, Code Runner simulation, and a searchable quick reference guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
