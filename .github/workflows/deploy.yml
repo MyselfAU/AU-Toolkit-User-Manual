@@ -19,9 +19,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./AU-Toolkit-User-Manual
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -32,9 +29,11 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
+        working-directory: ./AU-Toolkit-User-Manual
         run: npm install
 
       - name: Build Project
+        working-directory: ./AU-Toolkit-User-Manual
         run: npm run build
 
       - name: Upload Build Artifacts
