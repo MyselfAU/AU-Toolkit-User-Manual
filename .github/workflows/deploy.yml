@@ -29,17 +29,15 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        working-directory: ./AU-Toolkit-User-Manual
         run: npm install
 
       - name: Build Project
-        working-directory: ./AU-Toolkit-User-Manual
         run: npm run build
 
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './AU-Toolkit-User-Manual/dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
