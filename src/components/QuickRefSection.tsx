@@ -46,7 +46,7 @@ export const QuickRefSection: React.FC = () => {
         {/* HANDBOOK */}
         <div className="lg:col-span-6 flex flex-col gap-4 justify-between h-full min-h-[160px]">
           <div className="bg-zinc-100/60 rounded-2xl p-6 border border-zinc-200">
-            <span className="block font-semibold text-xs text-[#0f172a] uppercase mb-2 leading-none">📖 Quick Reference Overview:</span>
+            <span className="block font-semibold text-xs text-[#cccbcb] uppercase mb-2 leading-none">📖 Quick Reference Overview:</span>
             <p className="text-xs text-zinc-600 font-light leading-relaxed">
               This manual documents all active tools in the UI Extension panel. Simply follow the timeline selected checks on each tab for successful execution. Double-click on any script in the Launcher section to compile instantly.
             </p>
