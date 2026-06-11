@@ -189,10 +189,31 @@ a, button, input, textarea, select {
 }
 
 .footer-watermark {
-  color: rgba(0, 0, 0, 0.04);
+  color: rgba(26, 26, 26, 0.08);
   transition: color 0.3s ease;
 }
 .dark-theme .footer-watermark {
-  color: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.06);
+}
+
+.premium-text-glow {
+  text-shadow: 0 0 30px rgba(160, 130, 90, 0.2), 0 0 60px rgba(160, 130, 90, 0.1);
+}
+.dark-theme .premium-text-glow {
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.1), 0 0 60px rgba(255, 255, 255, 0.05);
+}
+
+.glow-orb-bg {
+  background-color: #dcb37b;
+}
+.dark-theme .glow-orb-bg {
+  background-color: #ffffff;
+}
+
+.particle-bg {
+  background-color: #c8a96e;
+}
+.dark-theme .particle-bg {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 

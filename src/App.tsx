@@ -9,6 +9,7 @@ import { LauncherSection } from "./components/LauncherSection";
 import { QuickRefSection } from "./components/QuickRefSection";
 import { HeroCanvas } from "./components/HeroCanvas";
 import { CustomCursor } from "./components/CustomCursor";
+import { FooterName } from "./components/FooterName";
 import { 
   ArrowRight, 
   CheckCircle, 
@@ -1744,10 +1745,8 @@ A dockable script framework designed for high-end results.`);
       </main>
 
       {/* COMPANION FOOTER RIGS */}
-      <footer className="w-full bg-[#e8e2da] overflow-hidden flex items-center justify-center min-h-[40vh] border-t border-zinc-200/65">
-        <h1 className="footer-watermark font-bold uppercase tracking-tighter w-full text-center whitespace-nowrap leading-none select-none px-4" style={{ fontSize: '13vw' }}>
-          Ahsan Ullah
-        </h1>
+      <footer className="w-full overflow-hidden flex items-center justify-center min-h-[20vh] py-10">
+        <FooterName />
       </footer>
 
     </div>
