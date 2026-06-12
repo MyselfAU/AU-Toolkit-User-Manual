@@ -1474,7 +1474,7 @@ A dockable script framework designed for high-end results.`);
                   {/* SRT parsed lists timeline boxes */}
                   <div className="mt-3.5 space-y-2">
                     <span className="text-[9px] font-mono uppercase tracking-widest font-bold text-zinc-400 block border-b border-zinc-50 pb-1.5 mb-2 leading-none">
-                      🎬 COMPILED SUBTITLE LAYERS ({parsedSubtitles.length} lines)
+                       COMPILED SUBTITLE LAYERS ({parsedSubtitles.length} lines)
                     </span>
                     <div className="max-h-[140px] overflow-y-auto space-y-1.5 pr-1 font-sans">
                       {parsedSubtitles.map((sub) => (
