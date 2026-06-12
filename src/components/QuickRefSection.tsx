@@ -16,7 +16,7 @@ export const QuickRefSection: React.FC = () => {
         <div className="lg:col-span-6 flex flex-col gap-4">
           <div>
             <h4 className="font-semibold text-sm text-black uppercase tracking-wider mb-1 flex items-center gap-2">
-              🛡️ System Integrity Diagnostic Checklist
+               System Integrity Diagnostic Checklist
             </h4>
             <p className="text-[11px] text-zinc-505 font-light leading-normal">
               Verify background system configuration matching After Effects guidelines.
