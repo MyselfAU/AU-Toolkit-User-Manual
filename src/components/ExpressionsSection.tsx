@@ -68,7 +68,7 @@ export const ExpressionsSection: React.FC<ExpressionsSectionProps> = ({
         {/* LEFT */}
         <div className="lg:col-span-4 flex flex-col gap-4">
           <span className="text-[10px] font-mono tracking-widest font-bold text-[#c8a96e] bg-[#c8a96e]/10 border border-[#c8a96e]/30 rounded-full px-3 py-1 w-fit select-none uppercase">
-            ⚡ PHYSICS EXPRESSIONS
+             PHYSICS EXPRESSIONS
           </span>
           <span className="text-7xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-300 to-zinc-100 leading-none select-none">
             02
@@ -366,7 +366,7 @@ export const ExpressionsSection: React.FC<ExpressionsSectionProps> = ({
 
                 {copiedCode === "Physics Expression Rigged" && (
                   <span className="text-[10px] text-emerald-700 font-mono text-center font-bold">
-                    🚀 EXTRAS: Copied expression payload safely to clipboard!
+                     EXTRAS: Copied expression payload safely to clipboard!
                   </span>
                 )}
               </div>
