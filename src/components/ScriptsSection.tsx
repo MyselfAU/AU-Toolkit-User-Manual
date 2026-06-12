@@ -36,7 +36,7 @@ export const ScriptsSection: React.FC<ScriptsSectionProps> = ({
         {/* LEFT */}
         <div className="lg:col-span-4 flex flex-col gap-4 font-sans">
           <span className="text-[10px] font-mono tracking-widest font-bold text-[#c8a96e] bg-[#c8a96e]/10 border border-[#c8a96e]/30 rounded-full px-3 py-1 w-fit select-none uppercase">
-             CODE RUNNER Byamp; Jake In Motion
+             CODE RUNNER By Jake In Motion
           </span>
           <span className="text-7xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-300 to-zinc-100 leading-none select-none">
             04
