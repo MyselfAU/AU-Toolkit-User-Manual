@@ -155,7 +155,7 @@ export const ScriptsSection: React.FC<ScriptsSectionProps> = ({
               onClick={() => handleGenerateCode("Action_Shortcut_Manager", "scripts")}
               className="w-full bg-black hover:bg-[#c8a96e] hover:border-[#c8a96e] border border-black text-white py-3 rounded-full uppercase font-mono tracking-widest font-bold text-[10.5px] cursor-pointer transition-all duration-200 shadow-sm mt-2"
             >
-              ⚡ GENERATE EDITABLE EXTENDSCRIPT CODE RUNNER PANEL
+               GENERATE EDITABLE EXTENDSCRIPT CODE RUNNER PANEL
             </button>
           </div>
 
