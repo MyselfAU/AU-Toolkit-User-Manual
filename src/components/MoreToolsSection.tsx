@@ -40,7 +40,7 @@ export const MoreToolsSection: React.FC<MoreToolsSectionProps> = ({
         {/* LEFT */}
         <div className="lg:col-span-4 flex flex-col gap-4">
           <span className="text-[10px] font-mono tracking-widest font-bold text-[#c8a96e] bg-[#c8a96e]/10 border border-[#c8a96e]/30 rounded-full px-3 py-1 w-fit select-none uppercase">
-            📁 MORE TOOLS &amp; PIPELINES
+             MORE TOOLS &amp; PIPELINES
           </span>
           <span className="text-7xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-300 to-zinc-100 leading-none select-none">
             03
@@ -101,7 +101,7 @@ export const MoreToolsSection: React.FC<MoreToolsSectionProps> = ({
               <div className="flex flex-col gap-3.5 bg-white/70 border border-[#d1ccc7]/80 p-4.5 rounded-2xl shadow-xs">
                 <div>
                   <h4 className="font-semibold text-xs text-zinc-900 uppercase tracking-wider mb-1">
-                    📁 Project Assets Folder Sandbox
+                     Project Assets Folder Sandbox
                   </h4>
                   <p className="text-[11px] text-zinc-500 font-light leading-normal">
                     Trigger direct organization simulation and undo routines.
@@ -145,7 +145,7 @@ export const MoreToolsSection: React.FC<MoreToolsSectionProps> = ({
               <div className="flex flex-col gap-4">
                 <div>
                   <h4 className="font-semibold text-xs text-zinc-900 uppercase tracking-wider mb-1">
-                    💬 Subtitle Real-time Parser Simulator
+                     Subtitle Real-time Parser Simulator
                   </h4>
                   <textarea
                     value={srtInput}
@@ -158,7 +158,7 @@ export const MoreToolsSection: React.FC<MoreToolsSectionProps> = ({
                 {/* SRT parsed lists timeline boxes */}
                 <div className="space-y-2">
                   <span className="text-[9px] font-mono uppercase tracking-widest font-bold text-zinc-500 block border-b border-zinc-200 pb-1.5 leading-none">
-                    🎬 COMPILED SUBTITLE LAYERS ({parsedSubtitles.length} lines)
+                     COMPILED SUBTITLE LAYERS ({parsedSubtitles.length} lines)
                   </span>
                   <div className="max-h-[120px] overflow-y-auto space-y-1.5 pr-1 font-sans">
                     {parsedSubtitles.map((sub) => (
