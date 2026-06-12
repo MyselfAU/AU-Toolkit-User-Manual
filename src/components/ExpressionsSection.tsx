@@ -361,7 +361,7 @@ export const ExpressionsSection: React.FC<ExpressionsSectionProps> = ({
                   onClick={() => handleGenerateCode(activeExpSim === "bounce" ? "Bounce_Inertia" : activeExpSim === "flicker" ? "Flicker_Opacity" : "Wiggle_Position", "expressions")}
                   className="w-full bg-black hover:bg-[#c8a96e] hover:border-[#c8a96e] border border-black text-white font-bold uppercase py-3 rounded-full text-[10.5px] font-mono tracking-widest cursor-pointer transition-all duration-200 shadow-sm"
                 >
-                  ⚡ LOCK EXPRESSION ASSET
+                   LOCK EXPRESSION ASSET
                 </button>
 
                 {copiedCode === "Physics Expression Rigged" && (
