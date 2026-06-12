@@ -846,13 +846,13 @@ A dockable script framework designed for high-end results.`);
         <nav className="pointer-events-auto bg-[#fbfaf3]/90 backdrop-blur-xl border border-[#e3d5bc] shadow-[0_8px_30px_rgb(0,0,0,0.06)] rounded-full p-1.5 flex items-center gap-1 overflow-x-auto scrollbar-none transform-gpu animate-fade-in text-xs">
           {(
             [
-              { id: "installation", label: "📦 Setup & Install", target: "installation" },
-              { id: "effects", label: "🎨 1. Effects", target: "section-1" },
+              { id: "installation", label: "Setup & Install", target: "installation" },
+              { id: "effects", label: "1. Effects", target: "section-1" },
               { id: "expressions", label: "⚡ 2. Expressions", target: "section-2" },
-              { id: "more", label: "📁 3. More Tools", target: "section-3" },
-              { id: "scripts", label: "💻 4. Code Runner", target: "section-4" },
-              { id: "launcher", label: "🚀 5. Launcher", target: "section-5" },
-              { id: "quickref", label: "📖 Reference", target: "quickref" },
+              { id: "more", label: "3. More Tools", target: "section-3" },
+              { id: "scripts", label: "4. Code Runner", target: "section-4" },
+              { id: "launcher", label: "5. Launcher", target: "section-5" },
+              { id: "quickref", label: "Reference", target: "quickref" },
             ] as const
           ).map((tab) => (
             <button
