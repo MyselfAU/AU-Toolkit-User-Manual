@@ -45,7 +45,7 @@ export const EffectsSection: React.FC<EffectsSectionProps> = ({
         {/* LEFT */}
         <div className="lg:col-span-4 flex flex-col gap-4">
           <span className="text-[10px] font-mono tracking-widest font-bold text-[#c8a96e] bg-[#c8a96e]/10 border border-[#c8a96e]/30 rounded-full px-3 py-1 w-fit select-none uppercase">
-            🎨 EFFECTS &amp; GRADIENTS
+             EFFECTS &amp; GRADIENTS
           </span>
           <span className="text-7xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-300 to-zinc-100 leading-none select-none">
             01
@@ -184,14 +184,14 @@ export const EffectsSection: React.FC<EffectsSectionProps> = ({
                     onClick={handleRandomizeColors}
                     className="flex-1 bg-white hover:bg-zinc-50 text-zinc-800 border border-[#d1ccc7] py-3 px-3 rounded-full uppercase font-mono tracking-widest font-bold text-[9px] cursor-pointer shadow-xs"
                   >
-                    🎲 Randomize Gradient
+                     Randomize Gradient
                   </button>
                   <button 
                     onClick={handleAnimateColors}
                     disabled={isAnimatingColors}
                     className="flex-1 bg-white hover:bg-zinc-50 text-zinc-800 border border-[#d1ccc7] py-3 px-3 rounded-full uppercase font-mono tracking-widest font-bold text-[9px] cursor-pointer shadow-xs disabled:opacity-40"
                   >
-                    🧬 {isAnimatingColors ? "Animating..." : "Animate Ramp"}
+                     {isAnimatingColors ? "Animating..." : "Animate Ramp"}
                   </button>
                 </div>
                 <button 
