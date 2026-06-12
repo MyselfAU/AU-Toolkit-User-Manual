@@ -33,7 +33,7 @@ export const InstallationSection: React.FC<InstallationSectionProps> = ({ active
         {/* LEFT INFO */}
         <div className="lg:col-span-4 flex flex-col gap-4">
           <span className="text-[10px] font-mono tracking-widest font-bold text-zinc-700 bg-[#e8e2da]/70 border border-zinc-200 rounded-full px-3 py-1 w-fit uppercase select-none">
-            📦 INITIAL STATE INITIALIZATION
+             INITIAL STATE INITIALIZATION
           </span>
           <span className="text-7xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-400 to-zinc-200 leading-none select-none">
             00
@@ -211,7 +211,7 @@ export const InstallationSection: React.FC<InstallationSectionProps> = ({ active
       <div className="bg-yellow-50/50 border border-[#e3d5bc] rounded-2xl p-6 mt-8 flex gap-4 text-xs font-sans text-zinc-650 leading-relaxed font-light">
         <HelpCircle size={18} className="text-yellow-600 shrink-0 mt-0.5" />
         <div>
-          <span className="font-semibold text-yellow-850 block mb-1">🔐 Directory Sandboxing Warning:</span>
+          <span className="font-semibold text-yellow-850 block mb-1"> Directory Sandboxing Warning:</span>
           If file dialog operations, subtitle parses, or script runner compilations trigger security issues, ensure you navigate in After Effects preferences to <strong className="font-medium text-yellow-900 uppercase">Edit → Preferences → Scripting & Expressions</strong> and enable <strong className="font-medium text-yellow-900 uppercase">Allow Scripts to Write Files and Access Network</strong>.
         </div>
       </div>
