@@ -848,7 +848,7 @@ A dockable script framework designed for high-end results.`);
             [
               { id: "installation", label: "Setup & Install", target: "installation" },
               { id: "effects", label: "1. Effects", target: "section-1" },
-              { id: "expressions", label: "⚡ 2. Expressions", target: "section-2" },
+              { id: "expressions", label: "2. Expressions", target: "section-2" },
               { id: "more", label: "3. More Tools", target: "section-3" },
               { id: "scripts", label: "4. Code Runner", target: "section-4" },
               { id: "launcher", label: "5. Launcher", target: "section-5" },
@@ -894,25 +894,25 @@ A dockable script framework designed for high-end results.`);
             />
           </div>
           <button onClick={() => { setActiveTab("installation"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'installation' && 'text-black'}`}>
-            📦 1. Installation
+            1. Installation
           </button>
           <button onClick={() => { setActiveTab("effects"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'effects' && 'text-black'}`}>
-            🎨 2. Effects Tab
+            2. Effects Tab
           </button>
           <button onClick={() => { setActiveTab("expressions"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'expressions' && 'text-black'}`}>
-            ⚡ 3. Expressions Tab
+            3. Expressions Tab
           </button>
           <button onClick={() => { setActiveTab("more"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'more' && 'text-black'}`}>
-            📁 4. More Tools Tab
+            4. More Tools Tab
           </button>
           <button onClick={() => { setActiveTab("scripts"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'scripts' && 'text-black'}`}>
-            💻 5. Code Runner Tab
+            5. Code Runner Tab
           </button>
           <button onClick={() => { setActiveTab("launcher"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'launcher' && 'text-black'}`}>
-            🚀 6. Launcher Tab
+            6. Launcher Tab
           </button>
           <button onClick={() => { setActiveTab("quickref"); setMobileMenuOpen(false); }} className={`text-left pb-1 ${activeTab === 'quickref' && 'text-black'}`}>
-            📖 7. Quick Reference
+            7. Quick Reference
           </button>
         </div>
       )}
@@ -1120,7 +1120,7 @@ A dockable script framework designed for high-end results.`);
               <div className="flex flex-col gap-4 animate-fade-in">
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    🎨 Visual Ramp &amp; Sweep Preview
+                    • Visual Ramp &amp; Sweep Preview
                   </h4>
                   <p className="text-[11px] text-zinc-400 font-light leading-normal">
                     Interactive simulation of Ramp Gradient, Randomizing Colors, and CC Light Sweep properties.
@@ -1232,7 +1232,7 @@ A dockable script framework designed for high-end results.`);
               <div className="flex flex-col gap-4 animate-fade-in">
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    📈 Physics Expression Builder
+                    • Physics Expression Builder
                   </h4>
                   <p className="text-[11px] text-zinc-400 font-light leading-normal">
                     Select a core property algorithm, trim custom slider rig limits, and instantly copy ExtendScript block.
@@ -1419,7 +1419,7 @@ A dockable script framework designed for high-end results.`);
                 <div className="flex flex-col gap-3.5 border-b border-zinc-150 pb-5">
                   <div>
                     <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                      📁 Project Assets Folder Sandbox
+                      • Project Assets Folder Sandbox
                     </h4>
                     <p className="text-[11px] text-zinc-400 font-light leading-normal">
                       Trigger direct organization simulation and undo routines.
@@ -1462,7 +1462,7 @@ A dockable script framework designed for high-end results.`);
                 {/* Subtitles text block inputs */}
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    💬 Subtitle Real-time Parser Simulator
+                    • Subtitle Real-time Parser Simulator
                   </h4>
                   <textarea
                     value={srtInput}
@@ -1498,7 +1498,7 @@ A dockable script framework designed for high-end results.`);
               <div className="flex flex-col gap-4 animate-fade-in">
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    💻 Simulated Extension Workstation
+                    • Simulated Extension Workstation
                   </h4>
                   <p className="text-[11px] text-zinc-400 font-light leading-normal">
                     Trigger ExtendScript actions on mock timeline items. Review real debug logs.
@@ -1631,7 +1631,7 @@ A dockable script framework designed for high-end results.`);
               <div className="flex flex-col gap-4 animate-fade-in">
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    🚀 System Directory Search
+                    • System Directory Search
                   </h4>
                   <p className="text-[11px] text-zinc-400 font-light leading-normal">
                     Search files under local scanner root, double click filename to trigger execution script mockups.
@@ -1703,7 +1703,7 @@ A dockable script framework designed for high-end results.`);
               <div className="flex flex-col gap-4 animate-fade-in font-sans">
                 <div>
                   <h4 className="font-semibold text-xs text-black uppercase tracking-wider mb-1">
-                    🛡️ System Integrity Diagnostic
+                    • System Integrity Diagnostic
                   </h4>
                   <p className="text-[11px] text-zinc-400 font-light leading-normal">
                     Verify background system configuration matching After Effects guidelines.
