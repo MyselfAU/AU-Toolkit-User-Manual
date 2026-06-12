@@ -198,7 +198,7 @@ export const EffectsSection: React.FC<EffectsSectionProps> = ({
                   onClick={() => handleGenerateCode("Ramp_Gradient", "effects")}
                   className="w-full bg-black text-white hover:bg-[#c8a96e] hover:border-[#c8a96e] border border-black py-3 rounded-full uppercase font-mono tracking-widest font-bold text-[10px] cursor-pointer transition-all duration-200 shadow-sm"
                 >
-                  ⚡ Generate Extendscript Gradient Rig
+                   Generate Extendscript Gradient Rig
                 </button>
               </div>
 
